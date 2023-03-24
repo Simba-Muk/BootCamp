@@ -1,0 +1,77 @@
+.content {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 1440px;
+    height: 800px;
+    
+}
+.image {
+    flex: 50%;
+    padding: 0px;
+    margin-top: 200px;
+}
+.details {
+    flex-direction: row;
+}
+.second-section {
+    color: white;
+    width: 500px;
+    height: 350px;
+    margin-top: 200px;
+    margin-left: 50px;
+    background-color: rgba(28,25,56,255);
+    padding: 50px;
+    position: relative;
+    padding-right: 100px;
+
+}
+.stats {
+    margin-top: 100px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.first {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -65px;
+    margin-top: 30px;
+    color: rgba(94,91,118,255);
+}
+.second {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -50px;
+    margin-top: 30px;
+    color:rgba(94,91,118,255) ;
+}
+.third {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -70px;
+    margin-top: 30px;
+    color:  rgba(94,91,118,255);
+}
+
+.second-stat {
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 100px;
+
+}
+.third-stat {
+    font-size: 32px;
+    margin-left: 100px;
+}
+.first-stat {
+    margin-left: 0px;
+    font-size: 32px;
+}
+.insight {
+    color: rgba(165,88,211,255);
+}
+ 
+
+
